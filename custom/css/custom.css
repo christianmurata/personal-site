@@ -1,0 +1,29 @@
+html { padding: 0; margin: 0; list-style: none; overflow-x: hidden; }
+
+body { font-family: Verdana !important; background-color: #f8f8f8; }
+
+a, p, h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; color: #333 !important; }
+
+a:hover, a:focus, a:visited { text-decoration: none; color: #fff; }
+
+.no-overflow { overflow: hidden !important; }
+
+.padding-xs { padding: 05px; }
+.padding-sm { padding: 10px; }
+.padding-md { padding: 15px; }
+.padding-lg { padding: 20px; }
+.padding-xl { padding: 25px; }
+
+.padding-top-sm { padding-top: 10px; }
+.padding-top-md { padding-top: 15px; }
+
+.background-gray { background-color: #333 !important; }
+.background-orange { background-color: #FF860D !important; }
+
+.font-gray { color: #333 !important; }
+.font-black { color: #000 !important; }
+.font-orange { color: #FF860D !important; }
+
+.main { height: calc(100vh - 80px); }
+
+.info-contact { margin-top: auto !important; }

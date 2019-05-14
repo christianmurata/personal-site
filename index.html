@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom/css/custom.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+
+    <!-- title -->
+    <title>Christian Murata</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light background-orange">
+        <a class="navbar-brand" href="#"> <i class="fas fa-user-ninja fa-lg mr-sm-5 mr-md-5 fa-2x"> </i> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Contato</a>
+            <!-- <a class="nav-item nav-link" href="#">Verdana</a> -->
+            <!-- <a class="nav-item nav-link" href="#">Pricing</a> -->
+            <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="main padding-md no-overflow" id="main">
+        <!-- <h1 class="font-orange">Main</h1> -->
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-9 text-justify">
+                    <h1>Olá, eu sou o Christian Murata!</h1>
+
+                    <ul class="fa-ul padding-top-md info-contact">
+                        <li> <h2 class="padding-top-md"> <i class="fas fa-check fa-lg fa-2x font-orange"></i>Dev Full Stack </h2></li>
+                        <li> <h2 class="padding-top-md"> <i class="fas fa-check fa-lg fa-2x font-orange"></i>Ninja em PHP e JS</h2></li>
+                        <li> <h2 class="padding-top-md"> <i class="fas fa-check fa-lg fa-2x font-orange"></i>Estudante de engenharia de Computação </h2></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <figure>
+                        <img src="img/ninja.png" alt="">
+                    </figure>
+
+                    <a href="#contact">
+                        <button class="btn background-orange font-gray" type="submit">Entre em Contato!</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact padding-md" id="contact">
+
+        <h1 class="font-orange text-center">Contato</h1>
+
+        <div class="container padding-top-md">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 col-md-offset-3 flex-center">
+
+                    <!-- <div class="container"> -->
+                    <div class="row">
+                        <div class="col-md-12 padding-top-sm text-justify contact-message">
+                            <!-- <h2> Entre em contato! </h2> -->
+
+                            <p>
+                                Envie sua mensagem através do formulário ao lado. 
+                                Ou, se prefererir, entre em contato diretamente por Email
+                                ou Whatsapp.
+                            </p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 padding-top-md">
+                            <a href="#!" class="font-gray">
+                                <i class="fas fa-phone fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
+                                (14) 996520690
+                            </a>
+                            
+                            <br><br>
+
+                            <a href="#!" class="font-gray">
+                                <i class="fas fa-envelope fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
+                                christiamurata@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 padding-top-md text-center">
+                            <figure>
+                                <img src="img/ninja-sword.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-md-offset-3 padding-top-sm border-left" id="email">
+                    <!-- <h2>Contact Us</h2> -->
+                    <!-- <p> Entre em contato! </p> -->
+
+                    <form role="form" method="post" id="reused_form">
+            
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 form-group">
+                                <label for="name"> Nome: </label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-sm-12 col-md-12 form-group">
+                                <label for="email">Email: </label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 form-group">
+                                <label for="message"> Mensagem: </label>
+                                <textarea class="form-control" type="textarea" name="message" id="message" maxlength="4000" rows="5"></textarea>
+                            </div>
+                        </div>
+            
+            
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 form-group text-center">
+                                <button type="submit" class="btn btn-lg btn-default background-orange font-gray" >Enviar</button>
+                            </div>
+                        </div>
+            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer background-orange">
+
+        <!-- Footer Elements -->
+        <div class="container text-center">
+      
+          <!-- Grid row-->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+              <div class="mb-2 flex-center">
+      
+                <!-- Facebook -->
+                <a href="#!">
+                  <i class="fab fa-facebook-f fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
+                </a>
+                <!-- Twitter -->
+                <a href="#!">
+                  <i class="fab fa-github fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
+                </a>
+                <!-- Google +-->
+                <a href="#!">
+                  <i class="fab fa-google-plus-g fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
+                </a>
+                <!--Linkedin -->
+                <a href="#!">
+                  <i class="fab fa-linkedin-in fa-lg fa-2x"> </i>
+                </a>
+                <!-- Instagram -->
+                <!-- <a href="#!">
+                  <i class="fab fa-instagram fa-lg mr-md-5 fa-2x"> </i>
+                </a> -->
+                <!--Pinterest-->
+                <!-- <a class="pin-ic">
+                  <i class="fab fa-pinterest fa-lg fa-2x"> </i>
+                </a> -->
+              </div>
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row-->
+      
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            © 2019 Copyright: <a href="#!"> Christian Murata</a>
+        </div>
+        <!-- Copyright -->
+      
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+</body>
+</html>
