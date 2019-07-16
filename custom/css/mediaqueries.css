@@ -1,0 +1,8 @@
+@media (max-width: 960px){
+    .main { height: auto !important; }
+}
+
+@media (max-width: 720px){
+    .main h1 { text-align: center !important; }
+    .email { border: none !important; }
+}
