@@ -9,6 +9,7 @@
     <!-- style -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom/css/custom.css">
+    <link rel="stylesheet" href="custom/css/mediaqueries.css">
 
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
@@ -22,15 +23,15 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-secondary background-orange" id="home">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg bg-secondary background-orange fixed" id="home">
+        <div class="container-fluid">
             <a class="navbar-brand js-scroll-trigger font-weight-md" href="#page-top"></a>
 
             <button class="navbar-toggler navbar-toggler-right text-uppercase btn btn-default font-orange background-gray rounded collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fas fa-bars"></i>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link font-weight-sm" href="#education">Educação </a>
                     <a class="nav-item nav-link font-weight-sm" href="#skills">Skills </a>
@@ -43,16 +44,21 @@
     <header class="main padding-md d-flex align-items-center no-overflow" id="main">
         <!-- <h1 class="font-orange">Main</h1> -->
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
 
                 <div class="col-sm-12 col-md-9 text-justify">
 
                     <h1 class="padding-bottom-md">Christian <span class="font-orange"> Murata </span></h1>
+                    
+                    <div class="subheading mb-5 font-light-gray">
+                        Estudante e desenvolvedor WEB · Cornélio Procópio, PR - Brasil
+                    </div>
+                    
                     <p>
-                        Olá eu sou Estudante da Universidade Tecnológica Federal
-                        do Paraná e desenvolvedor WEB. Tenho 20 anos e sou apaixonado
-                        por tecnologia.
+                        Olá! Eu sou estudante de Engenharia de Computação na 
+                        Universidade Tecnológica Federal do Paraná e desenvolvedor 
+                        WEB. Tenho 20 anos e sou apaixonado por tecnologia.
                     </p>
                     <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/murata.jpg" alt=""> -->
 
@@ -85,7 +91,7 @@
                     <h1 class="padding-sm"><b> I'm Ninja! </b></h1>
 
                     <figure>
-                        <img src="img/ninja.png" alt="">
+                        <img class="img-fluid" src="img/ninja.png" alt="ilustration">
                     </figure>
 
                     <a href="#contact">
@@ -113,7 +119,7 @@
 
         <h1 class="font-orange text-center padding-bottom-md">Educação</h1>
 
-        <div class="container padding-top-md">
+        <div class="container-fluid padding-top-md">
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 padding-top-md">
                 <div class="resume-content">
                     <h3 class="mb-0">Universidade Tecnologica Federal Do Paraná</h3>
@@ -145,7 +151,7 @@
 
         <h3 class="padding-sm padding-top-md font-white"> Linguagens de programação &amp; Ferramentas </h2>
 
-        <ul class="list-inline dev-icons">
+        <ul class="list-inline general-icons font-gray">
             <li class="list-inline-item">
                 <i class="fab fa-html5"></i>
             </li>
@@ -194,7 +200,7 @@
 
         <h1 class="font-orange text-center">Contato</h1>
 
-        <div class="container padding-top-md">
+        <div class="container-fluid padding-top-md">
             <div class="row">
 
                 <div class="col-sm-12 col-md-6 col-md-offset-3 flex-center">
@@ -235,7 +241,7 @@
 
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-md-offset-3 padding-top-sm border-left" id="email">
+                <div class="col-sm-12 col-md-6 col-md-offset-3 padding-top-sm border-left email" id="email">
                     <!-- <h2>Contact Us</h2> -->
                     <!-- <p> Entre em contato! </p> -->
 
@@ -285,36 +291,33 @@
     <footer class="footer background-orange" id="footer">
 
         <!-- Footer Elements -->
-        <div class="container text-center">
+        <div class="container-fluid text-center">
       
           <!-- Grid row-->
           <div class="row">
       
             <!-- Grid column -->
-            <div class="col-md-12 py-5">
-              <div class="mb-2 flex-center">
-      
-                <!-- Facebook -->
-                <a href="#!">
-                  <i class="fab fa-facebook-f fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
-                </a>
+            <div class="col-md-12 py-3">
+                <ul class="list-inline general-icons">
 
-                <!-- Twitter -->
-                <a href="#!">
-                  <i class="fab fa-github fa-lg mr-sm-5 mr-md-5 fa-2x"> </i>
-                </a>
-                
-                <!-- Instagram -->
-                <a href="#!">
-                  <i class="fab fa-instagram fa-lg mr-md-5 fa-2x"> </i>
-                </a>
+                    <!-- Facebook -->
+                    <li class="list-inline-item">
+                        <a href="#!"><i class="fab fa-facebook-f mr-sm-5"> </i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <!-- Github -->
+                        <a href="#!"><i class="fab fa-github mr-sm-5"> </i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <!-- Instagram -->
+                        <a href="#!"><i class="fab fa-instagram mr-sm-5"> </i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <!--Linkedin -->
+                        <a href="#!"><i class="fab fa-linkedin-in"> </i></a>
+                    </li>
 
-                <!--Linkedin -->
-                <a href="#!">
-                  <i class="fab fa-linkedin-in fa-lg fa-2x"> </i>
-                </a>
-
-              </div>
+                </ul>
             </div>
             <!-- Grid column -->
       
